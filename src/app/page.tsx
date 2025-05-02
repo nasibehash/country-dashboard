@@ -16,7 +16,7 @@ export default function Home() {
     const countries = data || [];
 
     return (
-        <div className="w-full p-2">
+        <div className="w-full h-screen p-2">
             <h1>Welcome to the Dashboard!</h1>
             <CountryChart countries={countries} />
         </div>
