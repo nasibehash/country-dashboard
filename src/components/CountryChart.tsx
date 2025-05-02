@@ -25,6 +25,8 @@ const CountryChart = ({ countries }: Props) => {
                 label: metric === 'population' ? 'Population' : 'Area (km²)',
                 data: topCountries.map((c) => (metric === 'population' ? c.population : c.area)),
                 backgroundColor: 'rgba(59,130,246,0.7)',
+                width: '100%',
+                height:'100%',
             },
         ],
     };
