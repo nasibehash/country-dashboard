@@ -17,4 +17,4 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Project Demo on Vercel
-[Demo](https://nex-store-pi.vercel.app)
+[Demo](https://country-dashboard-pi.vercel.app/)
